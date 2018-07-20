@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/opt/lampp/htdocs/convivere/appx_cvr/views/portal/webpart_asamblea.php</file>
+            <file>file:/opt/lampp/htdocs/convivere/appx_cvr/views/portal/TEST_1.php</file>
+            <file>file:/opt/lampp/htdocs/convivere/appx_cvr/views/portal/vw_formato_recibo_pago_pdf.php</file>
+            <file>file:/opt/lampp/htdocs/convivere/js/ajax/finAdminAJAX.js</file>
+            <file>file:/opt/lampp/htdocs/convivere/js/ajax/edificioAJAX.js</file>
+            <file>file:/opt/lampp/htdocs/convivere/appx_cvr/controllers/Edificio.php</file>
+            <file>file:/opt/lampp/htdocs/convivere/appx_cvr/libraries/Pago.php</file>
+            <file>file:/opt/lampp/htdocs/convivere/appx_cvr/views/portal/webpart_ame_edificio.php</file>
+            <file>file:/opt/lampp/htdocs/convivere/js/ajax/finCondominoAJAX.js</file>
+            <file>file:/opt/lampp/htdocs/convivere/appx_cvr/libraries/Utils.php</file>
+            <file>file:/opt/lampp/htdocs/convivere/appx_cvr/controllers/Finanzas.php</file>
+            <file>file:/opt/lampp/htdocs/convivere/style/css/ems/cvr_formatos_pdf.css</file>
+        </group>
+    </open-files>
+</project-private>

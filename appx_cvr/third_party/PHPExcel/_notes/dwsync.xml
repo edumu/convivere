@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="Autoloader.php" server="senni.com.mx//domains/senni.com.mx/public_html/" local="130382656260000000" remote="130808919000000000" />
+<file name="CachedObjectStorageFactory.php" server="senni.com.mx//domains/senni.com.mx/public_html/" local="130382656260000000" remote="130833559800000000" />
+<file name="Calculation.php" server="senni.com.mx//domains/senni.com.mx/public_html/" local="130382656260000000" remote="130833560400000000" />
+<file name="Cell.php" server="senni.com.mx//domains/senni.com.mx/public_html/" local="130382656260000000" remote="130833560400000000" />
+<file name="Chart.php" server="senni.com.mx//domains/senni.com.mx/public_html/" local="130382656260000000" remote="130833560400000000" />
+<file name="Comment.php" server="senni.com.mx//domains/senni.com.mx/public_html/" local="130382656260000000" remote="130833560400000000" />
+<file name="DocumentProperties.php" server="senni.com.mx//domains/senni.com.mx/public_html/" local="130382656260000000" remote="130833560400000000" />
+<file name="DocumentSecurity.php" server="senni.com.mx//domains/senni.com.mx/public_html/" local="130382656260000000" remote="130833560400000000" />
+<file name="Exception.php" server="senni.com.mx//domains/senni.com.mx/public_html/" local="130382656260000000" remote="130833560400000000" />
+<file name="HashTable.php" server="senni.com.mx//domains/senni.com.mx/public_html/" local="130382656260000000" remote="130833560400000000" />
+<file name="IComparable.php" server="senni.com.mx//domains/senni.com.mx/public_html/" local="130382656260000000" remote="130833560400000000" />
+<file name="IOFactory.php" server="senni.com.mx//domains/senni.com.mx/public_html/" local="130382656260000000" remote="130833560400000000" />
+<file name="NamedRange.php" server="senni.com.mx//domains/senni.com.mx/public_html/" local="130382656260000000" remote="130833561600000000" />
+<file name="ReferenceHelper.php" server="senni.com.mx//domains/senni.com.mx/public_html/" local="130382656260000000" remote="130833561600000000" />
+<file name="RichText.php" server="senni.com.mx//domains/senni.com.mx/public_html/" local="130382656260000000" remote="130833561600000000" />
+<file name="Settings.php" server="senni.com.mx//domains/senni.com.mx/public_html/" local="130382656260000000" remote="130833561600000000" />
+<file name="Style.php" server="senni.com.mx//domains/senni.com.mx/public_html/" local="130382656260000000" remote="130833562800000000" />
+<file name="Worksheet.php" server="senni.com.mx//domains/senni.com.mx/public_html/" local="130382656260000000" remote="130833562800000000" />
+<file name="WorksheetIterator.php" server="senni.com.mx//domains/senni.com.mx/public_html/" local="130382656260000000" remote="130833562800000000" />
+</dwsync>
