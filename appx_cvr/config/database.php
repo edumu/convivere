@@ -73,11 +73,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $active_group = 'conv_con';
 $query_builder = TRUE;
 
-$db['conv_con']['hostname'] = CNV_HOSTNAME;
-$db['conv_con']['username'] = CNV_USERNAME;
-$db['conv_con']['password'] = CNV_PWD;
-$db['conv_con']['database'] = CNV_DB;
-
+/***** LOCAL MyPHP INI******/
+$db['conv_con']['hostname'] = 'localhost';
+$db['conv_con']['username'] = 'convivere_admin';
+$db['conv_con']['password'] = 'c0nv1v3r3';
+$db['conv_con']['database'] = 'convivere';
 $db['conv_con']['dbdriver'] = 'mysql';
 $db['conv_con']['dbprefix'] = '';
 $db['conv_con']['pconnect'] = TRUE;
@@ -89,3 +89,22 @@ $db['conv_con']['dbcollat'] = 'utf8_spanish_ci';
 $db['conv_con']['swap_pre'] = '';
 $db['conv_con']['autoinit'] = TRUE;
 $db['conv_con']['stricton'] = FALSE;
+/***** LOCAL MyPHP  FIN******/
+
+/***** LOCAL MSSQLSERVER  FIN******
+$db['conv_con']['hostname'] = 'db-server-convivere.database.windows.net';
+$db['conv_con']['username'] = 'xxx';
+$db['conv_con']['password'] = 'xxx';
+$db['conv_con']['database'] = 'xxx';
+$db['conv_con']['dbdriver'] = 'sqlsrv';
+$db['conv_con']['dbprefix'] = '';
+$db['conv_con']['pconnect'] = TRUE;
+$db['conv_con']['db_debug'] = TRUE;
+$db['conv_con']['cache_on'] = FALSE;
+$db['conv_con']['cachedir'] = '';
+$db['conv_con']['char_set'] = 'utf8';
+$db['conv_con']['dbcollat'] = 'utf8_general_ci';
+$db['conv_con']['swap_pre'] = '';
+$db['conv_con']['autoinit'] = TRUE;
+$db['conv_con']['stricton'] = FALSE;
+/***** LOCAL MSSQLSERVER  FIN******/
