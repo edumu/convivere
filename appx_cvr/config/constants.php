@@ -105,7 +105,7 @@ define('PTO_ACTIVO'     , 13);
 define('TITULO_NAVEGADOR', 'Convivere, por una sana convivencia');
 define('SLOGAN'          , 'Por una sana convivencia');
 define('CALL_CENTER'     , 'Call Center (55) 520-4567');
-define('CORREO_OFICIAL'  , 'atencion@convivere.com');
+define('CORREO_OFICIAL'  , 'soluciones@convivere.mx');
 define('DIR_OFICIAL'     , 'Benito Juarez, CDMX');
 define('SELLO'           , 'CVR');
 
