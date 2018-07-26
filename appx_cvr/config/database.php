@@ -73,7 +73,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $active_group = 'conv_con';
 $query_builder = TRUE;
 
-/***** LOCAL MyPHP INI******/
+/***** LOCAL MyPHP INI******
 $db['conv_con']['hostname'] = 'localhost';
 $db['conv_con']['username'] = 'convivere_admin';
 $db['conv_con']['password'] = 'C0nv1v3r3';
@@ -91,7 +91,7 @@ $db['conv_con']['autoinit'] = TRUE;
 $db['conv_con']['stricton'] = FALSE;
 /***** LOCAL MyPHP  FIN******/
 
-/*****  MSSQLSERVER  FIN******
+/*****  MSSQLSERVER  FIN******/
 $db['conv_con']['hostname'] = 'db-server-convivere.database.windows.net';
 $db['conv_con']['port']     = '1433';
 $db['conv_con']['Uid'] = 'convivere_admin';
