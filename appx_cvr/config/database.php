@@ -93,18 +93,17 @@ $db['conv_con']['stricton'] = FALSE;
 
 /*****  MSSQLSERVER  FIN******/
 $db['conv_con']['hostname'] = 'db-server-convivere.database.windows.net';
-$db['conv_con']['port']     = '1433';
-$db['conv_con']['Uid'] = 'convivere_admin';
-$db['conv_con']['PWD'] = 'C0nv1v3r3';
-$db['conv_con']['Database'] = 'data_convivere';
+$db['conv_con']['username'] = 'convivere_admin';
+$db['conv_con']['password'] = 'C0nv1v3r3';
+$db['conv_con']['database'] = 'data_convivere';
 $db['conv_con']['dbdriver'] = 'sqlsrv';
-$db['conv_con']['dbprefix'] = '';
+$db['conv_con']['dbprefix'] = 'convivere';
 $db['conv_con']['pconnect'] = TRUE;
 $db['conv_con']['db_debug'] = TRUE;
 $db['conv_con']['cache_on'] = FALSE;
 $db['conv_con']['cachedir'] = '';
 $db['conv_con']['char_set'] = 'utf8';
-$db['conv_con']['dbcollat'] = 'utf8_spanish_ci';
+$db['conv_con']['dbcollat'] = 'utf8_general_ci';
 $db['conv_con']['swap_pre'] = '';
 $db['conv_con']['autoinit'] = TRUE;
 $db['conv_con']['stricton'] = FALSE;
