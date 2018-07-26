@@ -5,6 +5,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $config['base_url'] = CNV_BASE_URL_PROD;
 
 
+
 $config['index_page'] = 'index.php';
 
 /*
