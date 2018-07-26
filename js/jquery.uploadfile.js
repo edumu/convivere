@@ -7,7 +7,7 @@
  */
 (function ($) {    
         
-    if ($.fn.ajaxForm == undefined) { $.getScript("http://localhost/bffint/js/jquery.form.js"); }
+    if ($.fn.ajaxForm == undefined) { $.getScript("https://convivere.azurewebsites.net/js/jquery.form.js"); }
     var feature = {};
     feature.fileapi = $("<input type='file'/>").get(0).files !== undefined;
     feature.formdata = window.FormData !== undefined;

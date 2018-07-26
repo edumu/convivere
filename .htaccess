@@ -1,10 +1,13 @@
 <IfModule mod_rewrite.c>
-    #RewriteEngine On
-
+    RewriteEngine On
+    
     #RewriteCond %{REQUEST_FILENAME} !-f
     #RewriteCond %{REQUEST_FILENAME} !-d
     #RewriteRule ^(.*)$ /convivere/index.php?/$1 [L]
     # RewriteRule ^(.*)$ /index.php?/$1 [L]
+
+    RewriteCond %{HTTP:X-ARR-SSL} ^$
+    RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 </IfModule>
  
