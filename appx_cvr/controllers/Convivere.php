@@ -19,11 +19,14 @@ try{
 /***  TEST FUNCTION ***/
      public function test()
     {  try{  
+          /* */
             $T= $this->MDL_usuario->validaUsuario("eduardo.munoz.siller@gmail.com","ney");
-            echo 'VER: '.$T." - ".sizeof($T) ;
+            echo 'VER: '.$T;//." - ".sizeof($T) ;
+         
+          
             $util = new Utils();
-            $util->traduceMeses("January");            
-            $this->load->view('portal/webpart_loadingLogo',$data);
+         
+         //   $this->load->view('portal/webpart_loadingLogo',$data);
             
           } catch (Exception $e) {echo 'Excepción Convivere:',  $e, "\n";}		
     }

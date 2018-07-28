@@ -8,18 +8,29 @@
 FROM USUARIOS WHERE 1
  */
  
-class MDL_usuario extends CI_Model {		    
+class MDL_usuario extends CI_Model {		        
     
 public function validaUsuario($usuario,$pwd)
 {
+try{/*
     $this->db->select('U.NOMBRE, U.APELLIDOS, U.NIVEL_ACCESO');
-    $this->db->from('USUARIOS U');        
+    $this->db->from('convivere.USUARIOS U');        
     $this->db->where('U.CUENTA',$usuario);
     $this->db->where('U.CONTRASENA',$pwd);
     $this->db->where('U.ACTIVO',1);
-    $query = $this->db->get();        
+    $query = $this->db->get();*/
+    
+    
+    //$query = $this->db->query("SELECT * FROM [usuarios]");  
+    $this->load->database('conv_con',TRUE);
+    $query = $this->db->query("SELECT * FROM [usuarios]");  
+    
+    //$query=$this->db->get('usuarios'); 
+    return $query;
+   // return $query->result();
+   // return ( $query->num_rows() > 0 )? $query->result_array(): NULL;
 
-    return ( $query->num_rows() > 0 )? $query->result_array(): NULL;  
+    } catch (Exception $e) {echo 'Excepción MDL_usuario/validaUsuario:',  $e, "\n";}	
 }
 
 public function traeEdificiosSuperAdmin()
